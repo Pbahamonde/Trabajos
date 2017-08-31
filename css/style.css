@@ -1,0 +1,91 @@
+body {font-family: arial; background-image:url(../images/664307.jpg); }
+h1 {text-align:center;font-size:3em;font-family: fantasy ;  color:#d2a73d;}
+nav {background:#ad8560; padding:10px}
+nav a {color:#fff; text-decoration: none}
+nav a:hover {color:#000}
+nav a:active {color:#9a7838;}
+h3 {;text-shadow:-5px -5px 5px rgb(45, 32, 15);  font-size:2em;font-family:fantasy;color:#9a7838}
+p {font-size:1em;font-family: arial;color:black}
+.redes-sociales {float:right}
+img {box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.51)}
+table {background:#dbb07d}
+td {border: none}
+th {border: none; background:#7e5748; color:#fff; padding: 5px}
+label{font-size:medium;color:#9e5428;font-family:candara}
+h4 {font-size:large;font-family:candara}
+textarea {background:#d8cabb;box-shadow:5px 2px 2px #b5742d}
+button {background:aqua;font-family:corbel;padding:25px;border-radius:75px;}
+button:hover{background:red;font-weight:bold;text-transform:uppercase; border-radius:20px; transition-duration: 1s;}
+footer {background:#080300; color: #fff; text-align:center; padding: 20px 0}
+.logo {float:right}
+.letra-logo {font-size:2em; margin-left:20px;}
+.intro {border:solid #7f6f3c;font-family:corbel;font-weight:bolder }
+.sup-variedades {    display: block;}
+.variedades {columns: 3; }
+.img-responsive{max-width:100%;height:auto;display:block}
+#todo { 
+   width:100%; 
+}
+
+  #izquierda, #derecha { 
+      width:33%; 
+      font-family: Georgia, Tahoma; 
+      color: #FFF; 
+      text-align: center;
+      margin-top: -33px;
+}
+  #contenido { 
+      width:33%; 
+      font-family: Georgia, Tahoma; 
+      color: #333; 
+      text-align: center; 
+}
+#izquierda { 
+   float: left; 
+} 
+#derecha { 
+   float: right; 
+}
+#contenido { 
+   margin-left: 33%;
+}
+.historia {width:80%; margin:auto}
+.img-historia {border-radius:100%}
+.vasos {max-height:250px;box-shadow:none;margin:auto; animation-name:verdetalle;animation-duration:3s}
+
+.descripcion1{ 
+display: none;
+}
+.overvaso1:hover .descripcion1{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
+display : block;
+}
+ .descripcion2{ 
+display: none;
+}
+.overvaso2:hover .descripcion2{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
+display : block;
+}
+
+.descripcion3{ 
+display: none;
+}
+.overvaso3:hover .descripcion3{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
+display : block;
+}
+.tit-variedades{text-align:center;margin-top:20px}
+.juego {width: 300px;background: yellow; animation-name: participa; animation-duration: 5s; animation-iteration-count: infinite;}
+@keyframes participa {
+  0% {margin-top:90%; margin-right: 20%}
+  10% {margin-top:50%; margin-left: 35%}
+  20% {margin-left:5%; margin-right: 39%}
+  30% {margin-top:76%; margin-right: 9%}
+  30% {margin-top:55%; margin-left: 69%}
+  40% {margin-top:12%; margin-right: 65%}
+  50% {margin-top:55%; margin-left: 69%}
+  60% {margin-top:33%; margin-left: 72%}
+  70% {margin-top:71%; margin-right: 13%}
+  80% {margin-top:12%; margin-right: 65%}
+  90% {margin-top:47%; margin-right: 41%}
+  100% {margin-top:52%; margin-right: 38%}
+}
+.boton-jugar { float:right}
