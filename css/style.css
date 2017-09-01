@@ -18,10 +18,11 @@ button {background:aqua;font-family:corbel;padding:25px;border-radius:75px;}
 button:hover{background:red;font-weight:bold;text-transform:uppercase; border-radius:20px; transition-duration: 1s;}
 footer {background:#080300; color: #fff; text-align:center; padding: 20px 0}
 .logo {float:right}
-.letra-logo {font-size:2em; margin-left:20px;}
+.letra-logo {font-size:2em; margin-left:20px;text-shadow:3px 4px black}
 .intro {border:solid #7f6f3c;font-family:corbel;font-weight:bolder }
 .sup-variedades {    display: block;}
 .variedades {columns: 3; }
+.viklog{box-shadow:none; }
 .img-responsive{max-width:100%;height:auto;display:block}
 #todo { 
    width:100%; 
@@ -56,22 +57,22 @@ footer {background:#080300; color: #fff; text-align:center; padding: 20px 0}
 .descripcion1{ 
 display: none;
 }
-.overvaso1:hover .descripcion1{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
+.overvaso1:hover .descripcion1{padding:5px;margin:5px;box-shadow:#fff ;
 display : block;
 }
  .descripcion2{ 
 display: none;
 }
-.overvaso2:hover .descripcion2{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
+.overvaso2:hover .descripcion2{padding:5px;margin:5px;box-shadow:#fff ;
 display : block;
 }
 
 .descripcion3{ 
 display: none;
 }
-.overvaso3:hover .descripcion3{Background:white;padding:5px;margin:5px;box-shadow:azure 2px 5px;
-display : block;
-}
+.overvaso3:hover .descripcion3{  padding:5px;margin:5px;box-shadow:#fff ;
+display : block }
+
 .tit-variedades{text-align:center;margin-top:20px}
 .juego {width: 300px;background: yellow; animation-name: participa; animation-duration: 5s; animation-iteration-count: infinite;}
 @keyframes participa {
@@ -89,3 +90,11 @@ display : block;
   100% {margin-top:52%; margin-right: 38%}
 }
 .boton-jugar { float:right}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: url(../images/fm1.jpg) ; 
+        background-repeat:no-repeat; 
+        background-position:center;
+    }
+}
